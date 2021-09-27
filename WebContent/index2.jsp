@@ -21,7 +21,7 @@
 		<div class="text">
 			<h2>DAEGU RENTCAR</h2>
 			<h3>TAGO</h3>
-			<p> 대구 렌트카입니다~~~</p>
+			<p> 대구 렌트카입니다~~~~</p>
 			   <a href="#">단기렌트</a> <a href="#">장기렌트</a>
 			   
 		</div>

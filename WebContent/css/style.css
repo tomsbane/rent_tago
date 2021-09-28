@@ -24,11 +24,22 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
 header .logo
 {
+  font-size:70px;
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  text-decoration: none;
+}
+header .blogo
+{
+  font-size:70px;
+  color:black;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
 }
 .toggle
 {
@@ -37,7 +48,7 @@ header .logo
   height: 60px;
   background: url(https://i.ibb.co/HrfVRcx/menu.png);
   background-repeat: no-repeat;
-  background-size: 30px;
+  background-size: 35px;
   background-position: center;
   cursor: pointer;
 }
@@ -45,7 +56,26 @@ header .logo
 {
   background: url(https://i.ibb.co/rt3HybH/close.png);
   background-repeat: no-repeat;
-  background-size: 25px;
+  background-size: 28x;
+  background-position: center;
+  cursor: pointer;
+}
+.btoggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(../images/bmenu.png);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: center;
+  cursor: pointer;
+}
+.btoggle.active
+{
+  background: url(../images/bclose.png);
+  background-repeat: no-repeat;
+  background-size: 28x;
   background-position: center;
   cursor: pointer;
 }
@@ -59,9 +89,13 @@ header .logo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #111;
+  background: white;
   transition: 0.5s;
   z-index: 2;
+}
+.showcase a
+{
+ text-decoration: none;	
 }
 .showcase.active
 {
@@ -85,7 +119,7 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, rgb(133, 133, 255), rgb(168,255, 137)); 
+  background: linear-gradient(to left, #7BBFF5, gray); 
   mix-blend-mode: overlay;
 }
 .text
@@ -144,6 +178,7 @@ header .logo
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .social li
 {

@@ -10,7 +10,7 @@
 <body>
 	<section class="showcase">
 		<header>
-			<h2 class="logo">TAGO</h2>
+		<a href="index.jsp" ><h2 class="logo">TAGO</h2></a>
 			<div class="toggle"></div>
 		</header>
 
@@ -22,23 +22,23 @@
 			<h2>DAEGU RENTCAR</h2>
 			<h3>TAGO</h3>
 			<p> 대구 렌트카입니다~~~~</p>
-			   <a href="#">단기렌트</a> <a href="#">장기렌트</a>
+			   <a href="shortrent.jsp">단기렌트</a> <a href="longrent.jsp">장기렌트</a>
 			   
 		</div>
 		<ul class="social">
-			<li><a href=""><img src="images/facebook.png"></a></li>
-			<li><a href=""><img src="images/twitter.png"></a></li>
-			<li><a href=""><img src="images/insta.png"></a></li>
+			<li><a href=""><img src="images/fb.png"></a></li>
+			<li><a href=""><img src="images/twit.png"></a></li>
+			<li><a href=""><img src="images/insta1.png"></a></li>
 		</ul>
 	</section>
 	
 	<div class="menu">
 		<ul>
 		<li><a href="main.jsp">회사소개</a></li>
-		<li><a href="main.jsp">단기렌트</a></li>
-		<li><a href="BBS.jsp">장기렌트</a></li>
-		<li><a href="BBS.jsp">견적상담</a></li>
-		<li><a href="BBS.jsp">고객센터</a></li>
+		<li><a href="shortrent.jsp">단기렌트</a></li>
+		<li><a href="longrent.jsp">장기렌트</a></li>
+		<li><a href="quota.jsp">견적상담</a></li>
+		<li><a href="qna.jsp">고객센터</a></li>
 		</ul>
 	</div>
 	
